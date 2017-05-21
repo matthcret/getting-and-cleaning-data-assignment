@@ -111,4 +111,4 @@ completeActivitiesmean <- completeActivities %>%
   summarise_each(funs(mean))
 
 # Create the file tidy_data.txt
-write.table(completeActivitiesmean, file = "tidy_data.txt", row.names = F)
+write.table(completeActivitiesmean, file = "tidy_data.txt", row.name = F)
